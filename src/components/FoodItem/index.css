@@ -1,0 +1,134 @@
+.food-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+.food-item-image {
+  height: 150px;
+  width: 255px;
+  border-radius: 5%;
+}
+@media screen and (max-width: 768px) {
+  .food-item-image {
+    height: 100px;
+    width: 160px;
+  }
+}
+.food-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2%;
+  width: 122px;
+}
+.food-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  letter-spacing: 0.2px;
+  /* Light / blue-gray / 700 */
+  color: #334155;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.cost-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.food-cost {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #334155;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.rating-container {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.star {
+  color: #ffcc00;
+  width: 15px;
+  height: 17px;
+  margin-right: 2px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.rating {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0a1f44;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.add-button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  color: #ffa412;
+  background-color: transparent;
+  border: 2px solid #ffa412;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+  width: 100px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.cart-quantity-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.quantity-controller-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.quantity-controller-icon {
+  color: #616e7c;
+  width: 16px;
+  height: 16px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.cart-quantity {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}

@@ -1,0 +1,16 @@
+.image {
+  height: 25%;
+  width: 90%;
+  align-self: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.carousel-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+.bg-container {
+  align-self: center;
+}
